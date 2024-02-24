@@ -1,0 +1,21 @@
+<div
+  class="size-1 left-[calc(100%/2-2px)] bg-black rounded-full absolute"
+></div>
+
+
+
+<footer class="h-20 text-white bg-black">
+      <section class="_container">
+        <a
+          href=""
+          class="flex gap-x-3 font-semibold items-center transition hover:scale-110"
+        >
+          <img
+            src="./favicon.svg"
+            alt="Logo de Mohanna Nabhan"
+            class="size-7 stroke-white fill-white"
+          />
+          Mohanna Nabhan</a
+        >
+      </section>
+    </footer>
