@@ -12,8 +12,8 @@
     ></script>
   </head>
   <body>
-    <header class="_container h-20 sticky top-0">
-      <nav class="flex justify-between h-full items-center">
+    <header class="h-20 sticky top-0 z-[9999] bg-white">
+      <nav class="_container flex justify-between h-full items-center">
         <a
           href=""
           class="flex gap-x-3 font-semibold items-center transition hover:scale-110"
@@ -64,9 +64,9 @@
     </header>
     <main>
       <section
-        class="h-[calc(100vh-80px)] _container grid grid-cols-2 justify-center items-center"
+        class="h-[calc(100vh-80px)] _container grid grid-cols-1 lg:grid-cols-2 justify-center items-center"
       >
-        <div class="-mt-20">
+        <div class="-mt-20 order-2 lg:order-none">
           <h1 class="text-6xl font-bold">Hola I’am Mohanna&nbsp;Nabhan.</h1>
           <h2 class="text-6xl font-bold mt-3">FullStack Developer</h2>
           <h3 class="text-6xl font-bold mt-3">Based In German</h3>
@@ -103,10 +103,206 @@
             ></a>
           </div>
         </div>
-        <div>
-          <img src="./img/hero-img.svg" alt="Hero Imagen" />
+        <div class="order-1 lg:order-none flex justify-center items-center">
+          <img src="./img/hero-img.svg" class="w-[90%]" alt="Hero Imagen" />
         </div>
       </section>
+
+      <section class="_container mt-16">
+        <h1 class="text-4xl text-center font-bold">Habilidades</h1>
+        <div class="flex flex-wrap justify-center items-center gap-5 mt-10">
+          <div
+            class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-js"></i>
+            <span class="mt-4 font-bold">JavaScript</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-php"></i>
+            <span class="mt-4 font-bold">PHP</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-git"></i>
+            <span class="mt-4 font-bold">GIT</span>
+          </div>
+          <div
+            class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-node-js"></i>
+            <span class="mt-4 font-bold">NodeJS</span>
+          </div>
+          <div
+            class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <svg
+              class="mt-2"
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 3v19" />
+              <path
+                d="M18 11.227c0 3.273 -1.812 4.77 -6 9.273c-4.188 -4.503 -6 -6 -6 -9.273c0 -4.454 3.071 -6.927 6 -9.227c2.929 2.3 6 4.773 6 9.227z"
+              />
+            </svg>
+            <span class="mt-4 font-bold">MongoDB</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-solid fa-server"></i>
+            <span class="mt-4 font-bold">MySQL</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-html5"></i>
+            <span class="mt-4 font-bold">HTML5</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-css3-alt"></i>
+            <span class="mt-4 font-bold">CSS</span>
+          </div>
+          <div
+            class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <svg
+              class="mt-2"
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993" />
+              <path d="M15 12v-3" />
+            </svg>
+            <span class="mt-4 font-bold">NextJS</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-react"></i>
+            <span class="mt-4 font-bold">React</span>
+          </div>
+          <div
+            class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <svg
+              class="mt-2"
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z"
+              />
+            </svg>
+            <span class="mt-4 font-bold">Tailwindcss</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-20 pt-14 bg-black text-white">
+        <div class="_container">
+          <h1 class="text-4xl text-center font-bold mb-20">Proyectos</h1>
+          <article class="grid grid-cols-2">
+            <img
+              src="./img/proyect-img-1.svg"
+              alt="Proyecto de Mohanna Nabhan 01"
+            />
+            <div class="flex flex-col justify-center">
+              <h3 class="text-5xl font-bold">01</h3>
+              <h1 class="mt-5 text-4xl font-bold">
+                Crypto Screener Application
+              </h1>
+              <p class="text-zinc-500 mt-3">
+                I'm Evren Shah Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to specimen book.
+              </p>
+            </div>
+          </article>
+          <article class="grid grid-cols-2">
+            <div class="flex flex-col justify-center">
+              <h3 class="text-5xl font-bold">02</h3>
+              <h1 class="mt-5 text-4xl font-bold">
+                Crypto Screener Application
+              </h1>
+              <p class="text-zinc-500 mt-3">
+                I'm Evren Shah Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to specimen book.
+              </p>
+            </div>
+            <img
+              src="./img/proyect-img-1.svg"
+              alt="Proyecto de Mohanna Nabhan 01"
+            />
+          </article>
+          <article class="grid grid-cols-2">
+            <img
+              src="./img/proyect-img-1.svg"
+              alt="Proyecto de Mohanna Nabhan 01"
+            />
+            <div class="flex flex-col justify-center">
+              <h3 class="text-5xl font-bold">01</h3>
+              <h1 class="mt-5 text-4xl font-bold">
+                Crypto Screener Application
+              </h1>
+              <p class="text-zinc-500 mt-3">
+                I'm Evren Shah Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to specimen book.
+              </p>
+            </div>
+          </article>
+          <article class="grid grid-cols-2">
+            <div class="flex flex-col justify-center">
+              <h3 class="text-5xl font-bold">02</h3>
+              <h1 class="mt-5 text-4xl font-bold">
+                Crypto Screener Application
+              </h1>
+              <p class="text-zinc-500 mt-3">
+                I'm Evren Shah Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to specimen book.
+              </p>
+            </div>
+            <img
+              src="./img/proyect-img-1.svg"
+              alt="Proyecto de Mohanna Nabhan 01"
+            />
+          </article>
+        </div>
+      </section>
+      <section class="_container h-screen"></section>
     </main>
   </body>
 </html>
