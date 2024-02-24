@@ -16,10 +16,13 @@
 
 @layer {
   ._container {
-    @apply mx-auto container max-w-7xl;
+    @apply mx-auto container max-w-7xl px-5;
   }
 }
 
 body {
   font-family: "Sora Variable", "Times New Roman";
+}
+html {
+  scroll-behavior: smooth;
 }

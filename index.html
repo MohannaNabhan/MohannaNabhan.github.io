@@ -12,46 +12,58 @@
     ></script>
   </head>
   <body>
-    <header class="h-20">
-      <nav class="_container flex justify-between h-full items-center">
-        <a
-          href=""
-          class="flex gap-x-3 font-semibold items-center transition hover:scale-110"
-        >
-          <img
-            src="./favicon.svg"
-            alt="Logo de Mohanna Nabhan"
-            class="size-7"
-          />
-          Mohanna Nabhan</a
-        >
-        <ul class="flex gap-3">
+    <header
+      class="transition mb-5 sticky top-0 py-5 bg-white z-[99999999] h-20 overflow-hidden"
+    >
+      <nav
+        class="_container text-center flex gap-y-6 md:pt-0 flex-col lg:flex-row justify-between h-full items-center"
+      >
+        <div class="flex justify-between w-full lg:w-fit lg:inline-block">
+          <a
+            href="#hero"
+            class="flex gap-x-3 font-semibold items-center transition hover:scale-110"
+          >
+            <img
+              src="./favicon.svg"
+              alt="Logo de Mohanna Nabhan"
+              class="size-7"
+            />
+            Mohanna Nabhan</a
+          >
+          <button
+            onclick="NavFunc()"
+            class="lg:hidden text-2xl transition hover:font-semibold hover:scale-110 hover:bg-slate-100 px-4 py-2 rounded-md"
+          >
+            <i class="fa-solid fa-align-right"></i>
+          </button>
+        </div>
+        <ul class="flex flex-col lg:flex-row gap-3">
           <li>
             <a
-              href=""
+              href="#AcercaDeMi"
               class="inline-block relative text-sm transition hover:font-semibold hover:scale-110 hover:bg-slate-100 px-5 py-1 rounded-full"
               >Acerca de mi</a
             >
           </li>
           <li>
             <a
-              href=""
+              href="#Habilidades"
               class="inline-block relative text-sm transition hover:font-semibold hover:scale-110 hover:bg-slate-100 px-5 py-1 rounded-full"
               >Habilidades
             </a>
           </li>
           <li>
             <a
-              href=""
+              href="#Proyectos"
               class="inline-block relative text-sm transition hover:font-semibold hover:scale-110 hover:bg-slate-100 px-5 py-1 rounded-full"
               >Proyectos</a
             >
           </li>
           <li>
             <a
-              href=""
+              href="#Contactame"
               class="inline-block relative text-sm transition hover:font-semibold hover:scale-110 hover:bg-slate-100 px-5 py-1 rounded-full"
-              >Contactar me</a
+              >Contáctame</a
             >
           </li>
         </ul>
@@ -63,20 +75,26 @@
       </nav>
     </header>
     <main>
-      <section
-        class="h-[calc(100vh-80px)] _container grid grid-cols-1 lg:grid-cols-2 justify-center items-center"
+      <section 
+        id="hero"
+        class="lg:h-[calc(100vh-70px)] _container grid grid-cols-1 lg:grid-cols-2 justify-center items-center"
       >
-        <div class="-mt-20 order-2 lg:order-none">
-          <h1 class="text-6xl font-bold">Hola I’am Mohanna&nbsp;Nabhan.</h1>
-          <h2 class="text-6xl font-bold mt-3">FullStack Developer</h2>
-          <h3 class="text-6xl font-bold mt-3">Based In German</h3>
-          <p class="text-zinc-500 mt-5">
-            I'm Evren Shah Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to specimen book.
+        <div
+          class="lg:-mt-20 text-center lg:text-left mx-auto order-2 max-w-xl lg:order-none"
+        >
+          <h1 class="text-4xl lg:text-6xl font-bold">
+            Hola, soy Mohanna Nabhan.
+          </h1>
+          <h2 class="text-4xl lg:text-6xl font-bold mt-3">
+            Desarrollador FullStack
+          </h2>
+          <p class="text-zinc-500 mt-5 text-pretty">
+            Soy un apasionado desarrollador especializado en React.js y Node.js.
+            Con más de 4 años de experiencia, me encanta crear productos
+            digitales innovadores y eficientes utilizando tecnologías modernas
+            como Next.js, TypeScript y Tailwind CSS.
           </p>
-          <div class="flex gap-x-5 mt-5">
+          <div class="flex gap-x-5 mt-5 justify-center lg:justify-start">
             <a
               href="https://www.linkedin.com/in/mohanna-nabhan-algueira-ba5a58284/"
               target="_blank"
@@ -104,12 +122,16 @@
           </div>
         </div>
         <div class="order-1 lg:order-none flex justify-center items-center">
-          <img src="./img/hero-img.svg" class="w-[90%]" alt="Hero Imagen" />
+          <img
+            src="./img/hero-img.svg"
+            class="w-[60%] lg:w-[90%]"
+            alt="Hero Imagen"
+          />
         </div>
       </section>
 
-      <section class="_container mt-16">
-        <h1 class="text-6xl text-center font-bold">Habilidades</h1>
+      <section class="_container pt-32" id="Habilidades">
+        <h1 class="text-5xl text-center font-bold">Habilidades</h1>
         <div class="flex flex-wrap justify-center items-center gap-5 mt-10">
           <div
             class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
@@ -225,12 +247,14 @@
         </div>
       </section>
 
-      <section class="mt-20 pt-14 bg-black pb-10">
+      <section id="Proyectos" class="mt-20 pt-32 bg-black pb-10">
         <div class="_container">
           <h1 class="text-6xl text-center font-bold mb-20 text-white">
             Proyectos
           </h1>
-          <article class="grid grid-cols-2 gap-x-8">
+          <article
+            class="grid grid-cols-1 text-center lg:text-left lg:grid-cols-2 gap-x-8"
+          >
             <div class="flex justify-center items-center">
               <img
                 class="rounded-xl"
@@ -260,8 +284,10 @@
               </div>
             </div>
           </article>
-          <article class="grid grid-cols-2 gap-x-8">
-            <div class="flex flex-col justify-center">
+          <article
+            class="grid grid-cols-1 text-center lg:text-left lg:grid-cols-2 gap-x-8"
+          >
+            <div class="flex flex-col justify-center order-2 lg:order-none">
               <h3 class="text-5xl font-bold text-white">02</h3>
               <h1 class="mt-5 text-4xl font-bold text-white">
                 Administrador de Cuentas
@@ -281,7 +307,7 @@
                 </a>
               </div>
             </div>
-            <div class="flex justify-center items-center">
+            <div class="flex justify-center items-center order-1 lg:order-none">
               <img
                 class="rounded-xl"
                 src="./img/proyect-img-2.webp"
@@ -289,7 +315,9 @@
               />
             </div>
           </article>
-          <article class="grid grid-cols-2 gap-x-8">
+          <article
+            class="grid grid-cols-1 text-center lg:text-left lg:grid-cols-2 gap-x-8"
+          >
             <div class="flex justify-center items-center">
               <img
                 class="rounded-xl"
@@ -319,9 +347,11 @@
               </div>
             </div>
           </article>
-          <div class="flex justify-center items-center">
+          <div class="flex justify-center mt-10 lg:mt-0 items-center">
             <a
-              href="./proyectos.html"
+              href="https://github.com/MohannaNabhan/"
+              rel="noopener noreferrer"
+              target="_blank"
               class="transition hover:scale-110 bg-white px-5 py-2 rounded-md inline-block mx-auto"
             >
               Ver todos los Proyectos <i class="fa-solid fa-person-running"></i
@@ -330,12 +360,15 @@
         </div>
       </section>
 
-      <section class="_container pt-20 pb-10 grid grid-cols-2">
+      <section
+        id="AcercaDeMi"
+        class="_container pt-32 pb-10 text-center lg:text-left lg:grid lg:grid-cols-2"
+      >
         <div class="flex justify-center items-center">
           <img src="./img/perfil-img.webp" alt="Perfil Imagen Mohanna Nabhan" />
         </div>
-        <div class="flex items-center">
-          <div class="max-w-xl -mt-10">
+        <div class="flex items-center justify-center">
+          <div class="max-w-2xl mt-12 lg:-mt-10">
             <h1 class="text-5xl font-bold">Acerca de mi</h1>
             <p class="text-zinc-500 mt-5 text-pretty">
               Un programador apasionado y autodidacta que se especializa en
@@ -372,8 +405,11 @@
         </div>
       </section>
 
-      <section class="_container grid grid-cols-2 gap-x-14 pb-20 mt-20">
-        <form action="">
+      <section
+        id="Contactame"
+        class="_container max-w-xl lg:max-w-7xl text-center lg:text-left grid lg:grid-cols-2 gap-x-14 pb-20 mt-20"
+      >
+        <form action="" class="order-2 lg:order-none">
           <input
             class="transition hover:scale-105 focus:scale-105 block px-4 w-full py-4 border-2 border-black mt-4 rounded-md"
             type="text"
@@ -388,7 +424,9 @@
             class="resize-none transition hover:scale-105 focus:scale-105 block px-4 w-full py-4 border-2 h-36 border-black mt-4 rounded-md"
             placeholder="En que te puedo ayudar?"
           ></textarea>
-          <div class="flex items-center gap-x-3 mt-5">
+          <div
+            class="flex items-center gap-x-3 mt-5 justify-center lg:justify-start"
+          >
             <input
               type="submit"
               class="bg-black px-8 py-3 rounded-md transition hover:scale-110 cursor-pointer text-sm font-bold text-white"
@@ -420,8 +458,10 @@
             ></a>
           </div>
         </form>
-        <div class="flex flex-col justify-center">
-          <h2 class="text-6xl font-bold">Contactame</h2>
+        <div
+          class="flex flex-col justify-center items-center lg:items-start order-1 lg:order-none"
+        >
+          <h2 class="text-5xl md:text-6xl font-bold">Contáctame</h2>
           <p class="text-zinc-500 mt-5 text-balance mb-4">
             Busco superar los límites de la creatividad para crear contenido
             altamente atractivo y experiencias interactivas fáciles de usar y
@@ -429,12 +469,12 @@
           </p>
           <a
             href="mailto:mohanna.nabhant@gmail.com"
-            class="w-fit transition hover:scale-110 text-2xl font-bold"
+            class="text-xl md:text-2xl w-fit transition hover:scale-110 font-bold"
             >mohanna.nabhant@gmail.com</a
           ><br />
           <a
             href="tel:+49 123456789"
-            class="w-fit -mt-5 transition hover:scale-110 text-2xl font-bold"
+            class="text-xl md:text-2xl w-fit -mt-5 transition hover:scale-110 font-bold"
             >+49 123456789</a
           >
         </div>
@@ -443,8 +483,8 @@
     <footer class="bg-black py-3 text-white font-medium">
       <div class="_container flex justify-between items-center">
         <a
-          href=""
-          class="flex gap-x-3 font-semibold items-center transition hover:scale-110"
+          href="#hero"
+          class="flex gap-x-3 items-center transition hover:scale-110"
         >
           <img
             src="./img/logo_white.webp"
@@ -458,9 +498,10 @@
             &copy; 2019-2023
             <span class="text-red-500" aria-hidden>❤</span> Diseño de libre uso.
           </h5>
-          <h5>Creada por Mohanna Nabhan</h5>
+          <h5>Creado por Mohanna Nabhan</h5>
         </div>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

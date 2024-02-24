@@ -19,3 +19,437 @@
         >
       </section>
     </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <main>
+      <section
+        class="h-[calc(100vh-80px)] _container grid grid-cols-1 lg:grid-cols-2 justify-center items-center"
+      >
+        <div class="-mt-20 order-2 max-w-xl lg:order-none">
+          <h1 class="text-6xl font-bold">
+            Hola,&nbsp;soy&nbsp;Mohanna&nbsp;Nabhan.
+          </h1>
+          <h2 class="text-6xl font-bold mt-3">Desarrollador&nbsp;FullStack</h2>
+          <p class="text-zinc-500 mt-5 text-pretty">
+            Soy un apasionado desarrollador especializado en React.js y Node.js.
+            Con más de 4 años de experiencia, me encanta crear productos
+            digitales innovadores y eficientes utilizando tecnologías modernas
+            como Next.js, TypeScript y Tailwind CSS.
+          </p>
+          <div class="flex gap-x-5 mt-5">
+            <a
+              href="https://www.linkedin.com/in/mohanna-nabhan-algueira-ba5a58284/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="size-14 text-2xl rounded-lg transition hover:scale-110 border-black border-2 bg-black text-white flex justify-center items-center"
+            >
+              <i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://x.com/MohannaNab93119"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="size-14 text-2xl rounded-lg transition hover:scale-110 border-black border-2 hover:bg-black hover:text-white flex justify-center items-center"
+            >
+              <i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/mohannanabhan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="size-14 text-2xl rounded-lg transition hover:scale-110 border-black border-2 hover:bg-black hover:text-white flex justify-center items-center"
+            >
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+        <div class="order-1 lg:order-none flex justify-center items-center">
+          <img src="./img/hero-img.svg" class="w-[90%]" alt="Hero Imagen" />
+        </div>
+      </section>
+
+      <section class="_container mt-16">
+        <h1 class="text-6xl text-center font-bold">Habilidades</h1>
+        <div class="flex flex-wrap justify-center items-center gap-5 mt-10">
+          <div
+            class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-js"></i>
+            <span class="mt-4 font-bold">JavaScript</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-php"></i>
+            <span class="mt-4 font-bold">PHP</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-git"></i>
+            <span class="mt-4 font-bold">GIT</span>
+          </div>
+          <div
+            class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-node-js"></i>
+            <span class="mt-4 font-bold">NodeJS</span>
+          </div>
+          <div
+            class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <svg
+              class="mt-2"
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 3v19" />
+              <path
+                d="M18 11.227c0 3.273 -1.812 4.77 -6 9.273c-4.188 -4.503 -6 -6 -6 -9.273c0 -4.454 3.071 -6.927 6 -9.227c2.929 2.3 6 4.773 6 9.227z"
+              />
+            </svg>
+            <span class="mt-4 font-bold">MongoDB</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-solid fa-server"></i>
+            <span class="mt-4 font-bold">MySQL</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-html5"></i>
+            <span class="mt-4 font-bold">HTML5</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-css3-alt"></i>
+            <span class="mt-4 font-bold">CSS</span>
+          </div>
+          <div
+            class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <svg
+              class="mt-2"
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993" />
+              <path d="M15 12v-3" />
+            </svg>
+            <span class="mt-4 font-bold">NextJS</span>
+          </div>
+          <div
+            class="flex border-2 transition hover:bg-black hover:text-white hover:scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <i class="text-5xl mt-2 fa-brands fa-react"></i>
+            <span class="mt-4 font-bold">React</span>
+          </div>
+          <div
+            class="flex border-2 transition bg-black text-white scale-110 cursor-default border-black rounded-md size-36 flex-col justify-center items-center"
+          >
+            <svg
+              class="mt-2"
+              width="44"
+              height="44"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#ffffff"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M11.667 6c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 2 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968zm-4 6.5c-2.49 0 -4.044 1.222 -4.667 3.667c.933 -1.223 2.023 -1.68 3.267 -1.375c.71 .174 1.217 .68 1.778 1.24c.916 .912 1.975 1.968 4.288 1.968c2.49 0 4.044 -1.222 4.667 -3.667c-.933 1.223 -2.023 1.68 -3.267 1.375c-.71 -.174 -1.217 -.68 -1.778 -1.24c-.916 -.912 -1.975 -1.968 -4.288 -1.968z"
+              />
+            </svg>
+            <span class="mt-4 font-bold">Tailwindcss</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-20 pt-14 bg-black pb-10">
+        <div class="_container">
+          <h1 class="text-6xl text-center font-bold mb-20 text-white">
+            Proyectos
+          </h1>
+          <article class="grid grid-cols-2 gap-x-8">
+            <div class="flex justify-center items-center">
+              <img
+                class="rounded-xl"
+                src="./img/proyect-img-1.webp"
+                alt="Proyecto de Mohanna Nabhan 01"
+              />
+            </div>
+            <div class="flex flex-col justify-center">
+              <h3 class="text-5xl font-bold text-white">01</h3>
+              <h1 class="mt-5 text-4xl font-bold text-white">
+                Optimizador de Windows
+              </h1>
+              <p class="text-zinc-500 mt-3 mb-4 text-balance">
+                Optimizador de Windows, tarjeta de video y limpiador. Todo en
+                uno, es una poderosa herramienta que te permite mejorar el
+                rendimiento y la eficiencia de tu sistema.
+              </p>
+              <div>
+                <a
+                  href="https://github.com/MohannaNabhan/optimizer"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-semibold bg-white inline-block text-sm rounded-md px-5 transition hover:scale-110 py-2"
+                  >Ver Proyecto
+                  <i class="fa-solid fa-up-right-from-square text-base"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="grid grid-cols-2 gap-x-8">
+            <div class="flex flex-col justify-center">
+              <h3 class="text-5xl font-bold text-white">02</h3>
+              <h1 class="mt-5 text-4xl font-bold text-white">
+                Administrador de Cuentas
+              </h1>
+              <p class="text-zinc-500 mt-3 mb-4 text-balance">
+                Nuestro programa es un administrador de cuentas diseñado para
+                ayudarte a mantener tus cuentas de sitios web organizados.
+              </p>
+              <div>
+                <a
+                  href="https://github.com/MohannaNabhan/AccountManager"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-semibold bg-white inline-block text-sm rounded-md px-5 transition hover:scale-110 py-2"
+                  >Ver Proyecto
+                  <i class="fa-solid fa-up-right-from-square text-base"></i>
+                </a>
+              </div>
+            </div>
+            <div class="flex justify-center items-center">
+              <img
+                class="rounded-xl"
+                src="./img/proyect-img-2.webp"
+                alt="Proyecto de Mohanna Nabhan 02"
+              />
+            </div>
+          </article>
+          <article class="grid grid-cols-2 gap-x-8">
+            <div class="flex justify-center items-center">
+              <img
+                class="rounded-xl"
+                src="./img/proyect-img-3.webp"
+                alt="Proyecto de Mohanna Nabhan 03"
+              />
+            </div>
+            <div class="flex flex-col justify-center">
+              <h3 class="text-5xl font-bold text-white">03</h3>
+              <h1 class="mt-5 text-4xl font-bold text-white">
+                Plantilla de comercio electrónico
+              </h1>
+              <p class="text-zinc-500 mt-3 mb-4 text-balance">
+                Mi plantilla de comercio electrónico es una respuesta integral y
+                flexible para establecer su tienda web de forma rápida y sin
+                esfuerzo.
+              </p>
+              <div>
+                <a
+                  href="https://github.com/MohannaNabhan/shop-dashboard"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-semibold bg-white inline-block text-sm rounded-md px-5 transition hover:scale-110 py-2"
+                  >Ver Proyecto
+                  <i class="fa-solid fa-up-right-from-square text-base"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <div class="flex justify-center items-center">
+            <a
+              href="./proyectos.html"
+              class="transition hover:scale-110 bg-white px-5 py-2 rounded-md inline-block mx-auto"
+            >
+              Ver todos los Proyectos <i class="fa-solid fa-person-running"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="_container pt-20 pb-10 grid grid-cols-2">
+        <div class="flex justify-center items-center">
+          <img src="./img/perfil-img.webp" alt="Perfil Imagen Mohanna Nabhan" />
+        </div>
+        <div class="flex items-center">
+          <div class="max-w-xl -mt-10">
+            <h1 class="text-5xl font-bold">Acerca de mi</h1>
+            <p class="text-zinc-500 mt-5 text-pretty">
+              Un programador apasionado y autodidacta que se especializa en
+              Desarrollo de stacks (React.js y Node.js).
+            </p>
+            <p class="text-zinc-500 mt-5 text-pretty">
+              Estoy muy entusiasmado acerca de acercar los aspectos técnicos y
+              visuales de lo digital productos. Experiencia de usuario, diseño
+              perfecto en píxeles y Para mí es importante escribir código claro,
+              legible y de alto rendimiento.
+            </p>
+            <p class="text-zinc-500 mt-5 text-pretty">
+              Desde 2019 he estado desarrollando, y desde entonces he continuado
+              creciendo y evolucionando como desarrollador, asumiendo nuevos
+              desafíos y aprendiendo las últimas tecnologías a lo largo del
+              camino.
+            </p>
+            <p class="text-zinc-500 mt-5 text-pretty mb-10">
+              Utilizo tecnologías modernas como Next.js, TypeScript, Node.js,
+              Tailwind CSS y muchas más.
+            </p>
+
+            <a
+              href=""
+              class="font-semibold bg-black text-sm rounded-md text-white px-5 transition hover:scale-110 py-2 inline-flex gap-x-2 justify-center items-center"
+              >Contactar <i class="fa-solid fa-marker text-base"></i>
+            </a>
+            <a
+              href=""
+              class="font-semibold inline-flex gap-x-2 justify-center items-center text-sm rounded-md px-5 transition hover:scale-110 py-2"
+              >Descargar CV <i class="fa-solid fa-download text-base"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="_container grid grid-cols-2 gap-x-14 pb-20 mt-20">
+        <form action="">
+          <input
+            class="transition hover:scale-105 focus:scale-105 block px-4 w-full py-4 border-2 border-black mt-4 rounded-md"
+            type="text"
+            placeholder="Nombre Completo"
+          />
+          <input
+            class="transition hover:scale-105 focus:scale-105 block px-4 w-full py-4 border-2 border-black mt-4 rounded-md"
+            type="email"
+            placeholder="Correo electrónico"
+          />
+          <textarea
+            class="resize-none transition hover:scale-105 focus:scale-105 block px-4 w-full py-4 border-2 h-36 border-black mt-4 rounded-md"
+            placeholder="En que te puedo ayudar?"
+          ></textarea>
+          <div class="flex items-center gap-x-3 mt-5">
+            <input
+              type="submit"
+              class="bg-black px-8 py-3 rounded-md transition hover:scale-110 cursor-pointer text-sm font-bold text-white"
+              value="Enviar Mensaje"
+            />
+            <a
+              href="https://www.linkedin.com/in/mohanna-nabhan-algueira-ba5a58284/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="size-11 text-2xl rounded-lg transition hover:scale-110 border-black border-2 bg-black text-white flex justify-center items-center"
+            >
+              <i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a
+              href="https://x.com/MohannaNab93119"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="size-11 text-2xl rounded-lg transition hover:scale-110 border-black border-2 hover:bg-black hover:text-white flex justify-center items-center"
+            >
+              <i class="fa-brands fa-x-twitter"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/mohannanabhan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="size-11 text-2xl rounded-lg transition hover:scale-110 border-black border-2 hover:bg-black hover:text-white flex justify-center items-center"
+            >
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </form>
+        <div class="flex flex-col justify-center">
+          <h2 class="text-6xl font-bold">Contactame</h2>
+          <p class="text-zinc-500 mt-5 text-balance mb-4">
+            Busco superar los límites de la creatividad para crear contenido
+            altamente atractivo y experiencias interactivas fáciles de usar y
+            memorables.
+          </p>
+          <a
+            href="mailto:mohanna.nabhant@gmail.com"
+            class="w-fit transition hover:scale-110 text-2xl font-bold"
+            >mohanna.nabhant@gmail.com</a
+          ><br />
+          <a
+            href="tel:+49 123456789"
+            class="w-fit -mt-5 transition hover:scale-110 text-2xl font-bold"
+            >+49 123456789</a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="bg-black py-3 text-white font-medium">
+      <div class="_container flex justify-between items-center">
+        <a
+          href=""
+          class="flex gap-x-3 font-semibold items-center transition hover:scale-110"
+        >
+          <img
+            src="./img/logo_white.webp"
+            alt="Logo de Mohanna Nabhan"
+            class="size-10"
+          />
+          Mohanna Nabhan</a
+        >
+        <div>
+          <h5 class="mt-5">
+            &copy; 2019-2023
+            <span class="text-red-500" aria-hidden>❤</span> Diseño de libre uso.
+          </h5>
+          <h5>Creada por Mohanna Nabhan</h5>
+        </div>
+      </div>
+    </footer>
