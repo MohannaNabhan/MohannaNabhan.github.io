@@ -26,7 +26,3 @@ body {
 html {
   scroll-behavior: smooth;
 }
-.fade-out {
-  opacity: 0;
-  transition: opacity 0.5s ease-out; /* Duración de la animación y función de temporización */
-}

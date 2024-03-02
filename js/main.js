@@ -75,11 +75,7 @@ document.querySelector("#form-send").addEventListener("submit", (e) => {
 });
 */
 
-
-
 // This code is obfuscated to avoid any problems
-
-
 
 function e(a, b) {
   const d = c();
